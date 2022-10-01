@@ -56,6 +56,12 @@ section {
   border-bottom: 7px solid var(--primary-color);
 }
 
+@media only screen and (max-width: 766px) {
+  #j-navbar-section .nav-item .active {
+    border-bottom: none;
+  }
+}
+
 /* ===================== Showcase Section ============== */
 
 #showcase-section .j-showcase-img-container {
