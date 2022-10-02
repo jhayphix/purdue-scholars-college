@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/about.css" />
 
+    <!-- Tele -->
+    <link rel="stylesheet" href="assets/css/tele/demo.css" />
+    <link rel="stylesheet" href="assets/css/tele/intlTelInput.css" />
+
     <title>Admission | Purdue Scholars College</title>
   </head>
   <body class="bg-light">
@@ -130,6 +134,7 @@
     </nav>
     <!-- ------------ End of Navigation Section ------------ -->
 
+    <!-- ================ Showcase Section ================= -->
     <section id="about-showcase-section" class="p-0">
       <div class="card border-0 rounded-0 text-bg-dark">
         <div
@@ -153,6 +158,155 @@
         </div>
       </div>
     </section>
+    <!-- ---------------- End of Showcase Section -->
+
+    <!-- ================ Contact Us Intro ================ -->
+    <section>
+      <div class="container-sm">
+        <!-- Large Screen -->
+        <div class="display-6 d-md-block d-none text-center">
+          Plan a visit to
+          <span class="j-text-secondary">Purdue Scholars College </span> campus
+          in Kasoa, Toll Booth-Tuba Junction and let us show you our customized
+          learning environment.
+        </div>
+
+        <!-- Small Screen -->
+        <div class="lead d-block d-md-none text-center">
+          Plan a visit to
+          <span class="j-text-secondary">Purdue Scholars College </span> campus
+          in Kasoa, Toll Booth-Tuba Junction and let us show you our customized
+          learning environment.
+        </div>
+      </div>
+    </section>
+    <!-- ---------------- End of Contact us Intro --------------- -->
+
+    <section id="contact-detail">
+      <div class="container-lg">
+        <div
+          class="row justify-content-md-start justify-content-center align-items-center"
+        >
+          <!-- Contact Form -->
+          <div class="col-md-6 me-5 p-5 j-bg-light-gray">
+            <div class="text-center my-4">
+              <h2>Get in Touch</h2>
+              <p class="lead j-text-secondary">
+                Questions to ask? Fill out the form to contact us directly...
+              </p>
+            </div>
+
+            <!-- Form -->
+            <form>
+              <!-- First Name -->
+              <div class="form-floating my-4">
+                <input
+                  type="text"
+                  id="first-name"
+                  class="form-control"
+                  style="border-bottom: 2px solid var(--secondary-color)"
+                  placeholder="First Name"
+                />
+                <label for="first-name" class="text-muted">First Name</label>
+              </div>
+
+              <!-- Last Name -->
+              <div class="form-floating my-4">
+                <input
+                  type="text"
+                  id="last-name"
+                  class="form-control"
+                  style="border-bottom: 2px solid var(--secondary-color)"
+                  placeholder="Last Name"
+                />
+                <label for="last-name" class="text-muted">Last Name</label>
+              </div>
+
+              <!-- Person -->
+              <div class="my-4">
+                <select
+                  class="form-select py-3"
+                  name="subject"
+                  id="subject"
+                  style="border-bottom: 2px solid var(--secondary-color)"
+                >
+                  <option value="student" selected>Are you a student ?</option>
+                  <option value="student">I am a student</option>
+                  <option value="parent">I am a parent</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <!-- Phone -->
+              <div class="my-4">
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control py-3"
+                  style="border-bottom: 2px solid var(--secondary-color)"
+                  placeholder="Phone / Mobile no."
+                />
+              </div>
+
+              <!-- Query -->
+              <div class="form-floating my-4">
+                <textarea
+                  class="form-control"
+                  name="query"
+                  id="query"
+                  style="height: 140px"
+                  placeholder="Your message"
+                ></textarea>
+                <label for="query">Your message...</label>
+              </div>
+
+              <!-- Submit -->
+              <button
+                href="index.html"
+                type="submit"
+                class="btn btn-lg j-btn-secondary w-100"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="col-md-5 p-5 j-bg-light-gray">
+            <div class="text-center my-4">
+              <h2 class="border-bottom pb-3 j-text-secondary">Address</h2>
+            </div>
+            <div class="text-center mb-5">
+              <div class="lead fs-5">PURDUE SCHOLARS COLLEGE</div>
+              <!-- <div class="lead">Kasoa Toll Booth-Tuba Junction</div> -->
+              <div class="lead fs-5">P.O. BOX 87, DARKUMAN, ACCRA</div>
+            </div>
+            <div class="text-center">
+              Location: Kasoa Toll Booth-Tuba Junction
+            </div>
+
+            <div class="text-center my-4 mt-5">
+              <h2 class="border-bottom pb-3 j-text-secondary">Contact</h2>
+            </div>
+            <div class="text-center">
+              <div class="mb-2">
+                <i class="bi bi-telephone-fill me-2"></i>
+                0303 960 008
+              </div>
+              <div class="mb-3">
+                <i class="bi bi-telephone-fill me-2"></i>
+                +233 546 803 465
+              </div>
+              <div class="mb-2 j-text-primary lead">
+                <i class="bi bi-envelope-fill me-2"></i>
+                purduescholarscollegeinfo@gmail.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------- End of Contact Section ------- -->
 
     <!-- =============== Footer =============== -->
     <footer id="footer-section" class="bg-dark text-light">
@@ -174,7 +328,7 @@
               <!-- Large Screen -->
               <a
                 class="h5 j-text-primary text-center text-decoration-none d-inline-block"
-                href="index.html"
+                href=""
               >
                 Purdue Scholars College
               </a>
@@ -186,11 +340,22 @@
               </div>
             </div>
             <div class="text-muted my-3">
-              <div><i class="bi bi-person-lines-fill"></i> Contact</div>
-              <div class="text-muted">0561-917-460</div>
-              <div class="text-muted">0303-960-008</div>
-              <div class="text-muted">0596-118-797</div>
+              <div><i class="bi bi-person-lines-fill me-3"></i> Contact</div>
+              <div class="text-muted">
+                <i class="bi bi-telephone-fill me-2"></i>
+                0303 960 008
+              </div>
+              <div class="text-muted">
+                <i class="bi bi-telephone-fill me-2"></i>
+                +233 546 803 465
+              </div>
+
+              <div class="my-2 j-text-secondary lead">
+                <i class="bi bi-envelope-fill"></i>
+                <span>purduescholarscollegeinfo@gmail.com</span>
+              </div>
             </div>
+
             <div class="text-muted my-3">
               <a href="contact.html" class="j-text-secondary">Contact Us</a>
             </div>
@@ -201,34 +366,7 @@
 
           <div class="col-md-8 col-sm-6 col-11">
             <div class="row">
-              <div class="col-md-4 col-sm-8 col-12 mb-3">
-                <h5 class="border-bottom border-3 border-light pb-3">
-                  Our Campus
-                </h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2">
-                    <a href="academic.html" class="nav-link p-0">Academic</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="academic.html" class="nav-link p-0"
-                      >Planning & Administration</a
-                    >
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="campus.html" class="nav-link p-0">Campus Safety</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="about.html" class="nav-link p-0"
-                      >Office of The President</a
-                    >
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="" class="nav-link p-0">Facilities Services</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-md-4 col-sm-8 col-12 mb-3">
+              <div class="col-md-6 col-12 mb-3">
                 <h5 class="border-bottom border-3 pb-3">Campus Life</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2">
@@ -244,12 +382,14 @@
                     <a href="campus.html" class="nav-link p-0">Student Life</a>
                   </li>
                   <li class="nav-item mb-2">
-                    <a href="" class="nav-link p-0">Information Technology</a>
+                    <a href="about.html" class="nav-link p-0"
+                      >Information Technology</a
+                    >
                   </li>
                 </ul>
               </div>
 
-              <div class="col-md-4 col-sm-8 col-12 mb-3">
+              <div class="col-md-6 col-12 mb-3">
                 <h5 class="border-bottom border-3 border-light pb-3">
                   Navigate
                 </h5>
@@ -276,7 +416,6 @@
         </div>
       </div>
     </footer>
-
     <!-- Credit -->
     <div id="credit-section" class="py-5" style="background: rgb(34, 34, 34)">
       <div class="container-lg">
@@ -288,7 +427,7 @@
             id="credit-by-jhayphix"
             href="https://jhayphix.github.io/portfolio/"
             target="_blank"
-            >By Jhayphix Lt</a
+            >Developed By Jhayphix</a
           >
         </div>
       </div>
@@ -296,6 +435,12 @@
 
     <!-- =============== Footer ================= -->
 
+    <!-- tele -->
+    <script src="assets/js/tele/intlTelInput.js"></script>
+    <script>
+      const input = document.querySelector("#phone");
+      window.intlTelInput(input, []);
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

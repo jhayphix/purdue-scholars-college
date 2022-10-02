@@ -19,6 +19,9 @@ section {
 .j-bg-light {
   background-color: white;
 }
+.j-bg-light-gray {
+  background-color: #f5f5f5;
+}
 .j-text-primary {
   color: var(--primary-color);
 }
@@ -36,8 +39,9 @@ section {
   color: white;
 }
 .j-btn-secondary:hover {
-  background-color: white;
-  color: var(--secondary-color);
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  border: 1px solid var(--secondary-color) !important;
 }
 
 .j-img-fluid {
