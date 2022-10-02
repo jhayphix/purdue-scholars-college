@@ -40,6 +40,38 @@ section {
   color: var(--secondary-color);
 }
 
+.j-img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Animation */
+.j-img-ani-zoom-in {
+  animation: imgAniZoomIn 12s infinite;
+}
+.j-img-ani-zoom-out {
+  animation: imgAniZoomOut 12s infinite;
+}
+
+@keyframes imgAniZoomIn {
+  0% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes imgAniZoomOut {
+  0% {
+    transform: scale(1.4);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+
 /* ================== Navigation =============== */
 #j-navbar-section .nav-item a {
   /* border: 2px solid red; */
