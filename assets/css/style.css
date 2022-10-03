@@ -8,6 +8,9 @@ section {
   padding: 60px 0;
 }
 
+a {
+  text-decoration: none;
+}
 .j-bg-primary {
   background: var(--primary-color);
   color: white;
@@ -250,7 +253,7 @@ section {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 80px;
   z-index: 996;
   /* background: #0078ff; */
   background: var(--primary-color);
