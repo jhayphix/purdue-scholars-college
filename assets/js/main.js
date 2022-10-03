@@ -49,6 +49,19 @@
     window.addEventListener("load", toggleBacktotop);
     onscroll(document, toggleBacktotop);
   }
+  // Chat on whatsapp
+  const chatOnWhatsapp = select(".chat-on-whatsapp");
+  if (chatOnWhatsapp) {
+    const toggleBacktotop = () => {
+      if (window.scrollY > 100) {
+        chatOnWhatsapp.classList.add("active");
+      } else {
+        chatOnWhatsapp.classList.remove("active");
+      }
+    };
+    window.addEventListener("load", toggleBacktotop);
+    onscroll(document, toggleBacktotop);
+  }
 
   /**
    * Preloader

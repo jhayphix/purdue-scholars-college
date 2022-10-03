@@ -279,8 +279,6 @@ a {
   height: 50px;
   bottom: 120px;
   padding: 2rem;
-  visibility: visible;
-  opacity: 1;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .chat-on-whatsapp:hover i {
@@ -308,6 +306,7 @@ a {
   color: #fff;
 }
 
+.chat-on-whatsapp.active,
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
