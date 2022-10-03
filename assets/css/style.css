@@ -253,7 +253,7 @@ a {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 80px;
+  bottom: 15px;
   z-index: 996;
   /* background: #0078ff; */
   background: var(--primary-color);
@@ -263,6 +263,11 @@ a {
   border-radius: 50px;
   border: 2px solid var(--secondary-color);
   transition: all 0.4s;
+}
+@media only screen and (max-width: 769px) {
+  .back-to-top {
+    bottom: 85px;
+  }
 }
 
 .back-to-top i {
