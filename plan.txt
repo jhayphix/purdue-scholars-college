@@ -3,10 +3,10 @@ a2. HEAD TEACHER
 a3. DIRECTOR
 b4. HISTORY (1)
 c9. EXECUTIVE TEAM
-
-
-
-c5. CURRICULUM
 c6. Facilities
+c5. CURRICULUM
+
+
+
 c7. What can  Parents Expect
 b8. WHY CHOOSE PSC
