@@ -1,6 +1,9 @@
 a1. OUR MISSION
 a2. HEAD TEACHER
 a3. DIRECTOR
+
+
+
 b4. HISTORY (1)
 c5. CURRICULUM
 c6. Facilities
