@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/tele/demo.css" />
     <link rel="stylesheet" href="assets/css/tele/intlTelInput.css" />
 
-    <title>Admission | Purdue Scholars College</title>
+    <title>Contact Us | Purdue Scholars College</title>
   </head>
   <body class="bg-light">
     <!-- ============== Header Section ============= -->
@@ -81,10 +81,9 @@
               <a class="nav-link fw-semibold" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item me-2">
-              <a class="nav-link fw-semibold" href="academic.html">ACADEMIC</a>
-            </li>
-            <li class="nav-item me-2">
-              <a class="nav-link fw-semibold" href="academic.html">ADMISSION</a>
+              <a class="nav-link fw-semibold" href="admission.html"
+                >ADMISSION</a
+              >
             </li>
 
             <li class="nav-item me-2">
@@ -206,6 +205,7 @@
                   class="form-control"
                   style="border-bottom: 2px solid var(--secondary-color)"
                   placeholder="First Name"
+                  required
                 />
                 <label for="first-name" class="text-muted">First Name</label>
               </div>
@@ -218,6 +218,7 @@
                   class="form-control"
                   style="border-bottom: 2px solid var(--secondary-color)"
                   placeholder="Last Name"
+                  required
                 />
                 <label for="last-name" class="text-muted">Last Name</label>
               </div>
@@ -228,6 +229,7 @@
                   class="form-select py-3"
                   name="subject"
                   id="subject"
+                  required
                   style="border-bottom: 2px solid var(--secondary-color)"
                 >
                   <option value="student" selected>Are you a student ?</option>
@@ -243,6 +245,7 @@
                   type="tel"
                   id="phone"
                   class="form-control py-3"
+                  required
                   style="border-bottom: 2px solid var(--secondary-color)"
                   placeholder="Phone / Mobile no."
                 />
@@ -256,6 +259,7 @@
                   id="query"
                   style="height: 140px"
                   placeholder="Your message"
+                  required
                 ></textarea>
                 <label for="query">Your message...</label>
               </div>
@@ -307,7 +311,6 @@
       </div>
     </section>
     <!-- ------------- End of Contact Section ------- -->
-
     <!-- =============== Footer =============== -->
     <footer id="footer-section" class="bg-dark text-light">
       <div class="container-lg">
@@ -401,9 +404,6 @@
                     <a href="about.html" class="nav-link p-0">About us</a>
                   </li>
                   <li class="nav-item mb-2">
-                    <a href="academic.html" class="nav-link p-0">Academic</a>
-                  </li>
-                  <li class="nav-item mb-2">
                     <a href="admission.html" class="nav-link p-0">Admission</a>
                   </li>
                   <li class="nav-item mb-2">
@@ -434,8 +434,20 @@
     </div>
 
     <!-- =============== Footer ================= -->
+    <!-- ========================================== -->
+    <!-- ============                ============== -->
+    <!-- ============  Back to top   ============== -->
+    <!-- ============                ============== -->
+    <!-- ========================================== -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i>
+    </a>
 
-    <!-- tele -->
+    <!--  -->
+    <script src="assets/js/main.js"></script>
+    <!-- tel -->
     <script src="assets/js/tele/intlTelInput.js"></script>
     <script>
       const input = document.querySelector("#phone");
