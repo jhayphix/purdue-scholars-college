@@ -37,23 +37,37 @@
     <!-- ========================================== -->
     <nav class="navbar navbar-dark text-light fixed-bottom bg-dark d-md-none">
       <div class="container-lg">
-        <div class="row m-auto w-100 text-center">
-          <div class="col p-0">
+        <div class="row w-100 text-center">
+          <div class="col">
             <a href="about.html">
-              <i class="bi bi-people-fill text-light fs-2"></i>
-              <div class="m-0 p-0 text-light">About us</div>
+              <i
+                class="bi bi-people-fill j-mobile-nav-icon text-light"
+              ></i>
+              <div class="j-mobile-nav-text text-light">About</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="admission.html">
+              <i class="fas fa-user-graduate j-mobile-nav-icon text-light"></i>
+              <div class="j-mobile-nav-text text-light">Admission</div>
             </a>
           </div>
           <div class="col">
             <a href="index.html">
-              <i class="bi bi-house-door j-text-secondary fs-2"></i>
-              <div class="m-0 p-0 j-text-secondary">Home</div>
+              <i class="bi bi-house-door j-mobile-nav-icon active j-text-secondary"></i>
+              <div class="j-mobile-nav-text j-text-secondary active">Home</div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="campus.html">
+              <i class="fas fa-school j-mobile-nav-icon text-light"></i>
+              <div class="j-mobile-nav-text text-light">Campus</div>
             </a>
           </div>
           <div class="col">
             <a href="contact.html">
-              <i class="bi bi-person-circle text-light fs-2"></i>
-              <div class="m-0 p-0 text-light">Contact</div>
+              <i class="bi bi-person-circle j-mobile-nav-icon text-light"></i>
+              <div class="j-mobile-nav-text text-light">Contact</div>
             </a>
           </div>
         </div>
@@ -709,6 +723,7 @@
             Copyright &copy; Purdue Scholars College, All Right Reserved
           </div>
           <a
+          class="d-md-block d-none"
             id="credit-by-jhayphix"
             href="https://jhayphix.github.io/portfolio/"
             target="_blank"
