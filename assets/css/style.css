@@ -79,6 +79,14 @@ a {
   }
 }
 
+/* Mobile Nav */
+.j-mobile-nav-text {
+  font-size: 0.7rem;
+}
+.j-mobile-nav-icon {
+  font-size: 1rem;
+}
+
 /* ================== Navigation =============== */
 #j-navbar-section .nav-item a {
   /* border: 2px solid red; */
@@ -350,90 +358,4 @@ a {
 }
 .check-circle-container:hover i {
   color: red;
-}
-.j-staff-gift {
-  position: absolute;
-  top: -5rem;
-  left: 6rem;
-  color: var(--primary-color);
-  z-index: 5;
-}
-
-#exe-team-section {
-  z-index: -2;
-}
-
-/* For the image container */
-.j-staff-img-effect-container {
-  height: 20rem;
-  width: 20rem;
-  position: relative;
-  cursor: grab;
-}
-.j-staff-container-2 {
-  height: 20rem;
-  width: 18rem;
-}
-
-.j-staff-img-effect-container:hover::before {
-  z-index: 5;
-  transform: translate(2rem, 2rem) rotate(360deg);
-}
-.j-staff-img-effect-container::before {
-  color: white;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  transform: translate(-2rem, -2rem);
-  position: absolute;
-  z-index: -1;
-  transition: all 1s ease-in-out;
-}
-
-/* For effect 1 */
-.j-staff-img-effect-1::before {
-  content: "To all prospective applicants : We can't wait to see you! Be part of the PSC family today!";
-  font-size: 2rem;
-  background: var(--primary-color);
-  border: 10px solid var(--secondary-color);
-}
-
-/* For effect 2 */
-.j-staff-img-effect-2::before {
-  content: " ";
-  background: var(--primary-color);
-  border: 10px solid var(--secondary-color);
-}
-
-.j-staff-gift {
-  position: absolute;
-  top: -5rem;
-  left: 6rem;
-  color: var(--primary-color);
-  z-index: 5;
-  animation: jStaffGiftAni 5s infinite;
-}
-
-@keyframes jStaffGiftAni {
-  10% {
-    transform: translateY(-2rem);
-  }
-  50% {
-    transform: translateY(0rem);
-  }
-  70% {
-    transform: translateY(-5rem);
-  }
-  90% {
-    transform: translateY(0rem);
-  }
-}
-
-/* .j-staff-img-effect-container::before:hover{
-  display: none;
-} */
-.j-staff-img-effect-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
 }
