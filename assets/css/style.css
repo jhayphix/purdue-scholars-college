@@ -241,7 +241,7 @@ a {
 
 #credit-by-jhayphix {
   color: white;
-  animation: jhayphixAni 8s infinite;
+  /* animation: jhayphixAni 8s infinite; */
 }
 @keyframes jhayphixAni {
   10% {
