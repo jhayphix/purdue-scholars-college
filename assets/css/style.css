@@ -302,6 +302,8 @@ a {
 }
 .chat-on-whatsapp:hover i {
   color: var(--secondary-color);
+  transform: rotate(-600deg);
+  transition: var(--transition);
 }
 @media only screen and (max-width: 769px) {
   .back-to-top {
