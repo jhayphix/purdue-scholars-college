@@ -266,6 +266,20 @@
                 <label for="last-name" class="text-muted">Last Name</label>
               </div>
 
+              <!-- Email -->
+              <div class="form-floating my-4">
+                <input
+                  type="email"
+                  id="email"
+                  name="Email"
+                  class="form-control"
+                  style="border-bottom: 2px solid var(--secondary-color)"
+                  placeholder="Email"
+                  required
+                />
+                <label for="email" class="text-muted">Email</label>
+              </div>
+
               <!-- Person -->
               <div class="my-4">
                 <select
@@ -275,10 +289,10 @@
                   required
                   style="border-bottom: 2px solid var(--secondary-color)"
                 >
-                  <option value="student" selected>Are you a student ?</option>
-                  <option value="student">I am a student</option>
-                  <option value="parent">I am a parent</option>
-                  <option value="other">Other</option>
+                  <option selected>Are you a student ?</option>
+                  <option>I am a student</option>
+                  <option>I am a parent</option>
+                  <option>Other</option>
                 </select>
               </div>
 
@@ -308,11 +322,7 @@
               </div>
 
               <!-- Submit -->
-              <button
-                href="index.html"
-                type="submit"
-                class="btn btn-lg j-btn-secondary w-100"
-              >
+              <button type="submit" class="btn btn-lg j-btn-secondary w-100">
                 Submit
               </button>
             </form>
