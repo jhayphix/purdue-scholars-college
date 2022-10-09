@@ -464,6 +464,46 @@ a {
   transition: var(--transition);
 }
 
+/* Video */
+#campus-video-section {
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+#campus-video-section .campus-video-container {
+  height: 36rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 30px;
+}
+#campus-video-section .campus-video-container video {
+  background: var(--primary-color);
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+@media only screen and (max-width: 766px) {
+  #campus-video-section .campus-video-container {
+    height: 30rem;
+  }
+}
+
 /* ================================================= 
 ===================            =====================
 =================== Admission  =====================
@@ -507,3 +547,10 @@ a {
   border: transparent;
   color: #1f1f1f;
 }
+
+/* ================================================= 
+===================            =====================
+=================== OUR CAMPUS =====================
+===================            =====================
+====================================================
+*/
