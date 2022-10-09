@@ -482,6 +482,7 @@ a {
   object-fit: cover;
   overflow: hidden;
   border-radius: 30px;
+  background: var(--primary-color);
 }
 #campus-video-section .campus-video-container video {
   background: var(--primary-color);
@@ -497,6 +498,7 @@ a {
     var(--primary-color),
     var(--secondary-color)
   );
+  border-radius: 30px;
 }
 @media only screen and (max-width: 766px) {
   #campus-video-section .campus-video-container {
